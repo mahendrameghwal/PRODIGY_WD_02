@@ -6,8 +6,8 @@ function App() {
   const [isActive, setIsActive] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [laps, setLaps] = useState([]);
-const ok = new Date().toISOString();
-console.log(ok);
+
+
   useEffect(() => {
     let interval = null;
 
