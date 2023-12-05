@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,600&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+overflow-x: hidden;
+  width: 100vw;
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  font-size: 16px;
+  min-height: 100vh;
+  max-height: 100%;
+  font-family: "Brygada 1918", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Italianno", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.main{
+  width: 100%;
+}
+
+.trns-text {
+  background: #959595;
+background: -webkit-linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+background: -moz-linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  display:block;
+  font-size: 3.5rem;
+  font-family: arial;
+  text-align: center;
+  
+  font-weight: bold;
+  background-size: cover;
+}
+.text-container{
+  display: grid;
+  place-items: center;
+
+ margin: 30px 0;
+}
+.time-text{
+  background: #959595;
+  background: -webkit-linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+  background: -moz-linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+  background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 3.5rem;
+
+font-weight: 600;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px ;
+}
+
+
+
+
+
+
+.btn {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #212529;
+  color: #212529;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:hover:after {
+  width: 100%;
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.1s ;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #212529;
+}
+.text-container li{
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.laps-count{
+  display: flex;
+  justify-content: flex-end;
+  padding:  20px;
+
+}
+.laps-count p{
+  font-size: 1.4rem;
+}
